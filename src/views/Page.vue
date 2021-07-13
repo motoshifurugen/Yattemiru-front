@@ -74,7 +74,7 @@
 .description {
   margin: 1em;
   padding: 1em;
-  background-color: #CFD8DC;
+  background-color: #EEEEEE;
   border-radius: 1rem;
   text-indent: 1em;
 }
@@ -108,8 +108,7 @@
 }
 .comment {
   margin: 0.3em 0;
-  background-color: #EF5350;
-  color:white;
+  background-color: #FFCDD2;
   border-radius: 0.5rem;
 }
 </style>
