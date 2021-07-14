@@ -26,7 +26,6 @@
     </v-row>
     <v-row dense>
       <v-col cols="1">
-        ハードル
       </v-col>
       <v-col cols="11">
         <v-row 
@@ -129,6 +128,14 @@
                 {
                   to: 'http://typingx0.net/sushida/',
                   name: '寿司打'
+                },
+                {
+                  to: 'https://www.e-typing.ne.jp/',
+                  name: 'e-typing'
+                },
+                {
+                  to: 'https://pokedebi.com/game/momotype/',
+                  name: '桃太郎たいぴんぐ'
                 }
               ],
               comments: [
@@ -138,7 +145,23 @@
                 },
                 {
                   user: 'ユーザーB',
+                  body: '【桃太郎たいぴんぐ】RPG感覚でタイピング練習ができる！楽しい！'
+                },
+                {
+                  user: 'ユーザーB',
+                  body: '【e-typing】やったぜ！3ヶ月続けて初めてスコアがAに行きました。こんなことに3ヶ月かけてよかったのかw'
+                },
+                {
+                  user: 'ユーザーA',
                   body: '【寿司打】タイピング練習といえばこのゲームでしょう。寿司好きでなくても挑戦したことがあるという方は多いはず。'
+                },
+                {
+                  user: 'ユーザーB',
+                  body: '【桃太郎たいぴんぐ】RPG感覚でタイピング練習ができる！楽しい！'
+                },
+                {
+                  user: 'ユーザーB',
+                  body: '【e-typing】やったぜ！3ヶ月続けて初めてスコアがAに行きました。こんなことに3ヶ月かけてよかったのかw'
                 }
               ]
             },
@@ -147,46 +170,94 @@
               name: 'プログラミング基礎',
               links: [
                 {
-                  to: '#',
+                  to: 'https://prog-8.com/',
                   name: 'progate'
                 },
                 {
-                  to: '#',
+                  to: 'https://dotinstall.com/',
                   name: 'ドットインストール'
                 }
               ],
               comments: [
                 {
                   user: 'ユーザーC',
-                  body: 'コメントC'
+                  body: '【Progate】私もプロゲートで始めました。可愛くてはまります。'
                 },
                 {
                   user: 'ユーザーD',
-                  body: 'コメントD'
+                  body: '【ドットインストール】お世話になっています。動画がいいんだよなー。パソコン触れない時も音声で学習できる。'
+                },
+                {
+                  user: 'ユーザーC',
+                  body: '【Progate】私もプロゲートで始めました。可愛くてはまります。'
+                },
+                {
+                  user: 'ユーザーD',
+                  body: '【ドットインストール】お世話になっています。動画がいいんだよなー。パソコン触れない時も音声で学習できる。'
                 }
               ]
             },
             {
               level: '3',
-              name: '言語を決める',
+              name: '作りたいものを決める',
               links: [
                 {
-                  to: '#',
-                  name: '目的から決める'
+                  to: 'https://qiita.com/tags/todo',
+                  name: '【Qiita】ToDoアプリ作成の記事一覧'
                 },
                 {
-                  to: '#',
-                  name: '案件から決める'
+                  to: 'https://qiita.com/tags/%e5%80%8b%e4%ba%ba%e9%96%8b%e7%99%ba',
+                  name: '【Qiita】個人開発の記事一覧'
                 }
               ],
               comments: [
                 {
                   user: 'ユーザーE',
-                  body: 'コメントE'
+                  body: 'SNS投稿アプリとかも結構簡単に作れる。'
                 },
                 {
                   user: 'ユーザーF',
-                  body: 'コメントF'
+                  body: '何を作りたいかが決まらず、どの言語を勉強しようか迷っています。'
+                },
+                {
+                  user: 'ユーザーE',
+                  body: 'SNS投稿アプリとかも結構簡単に作れる。'
+                },
+                {
+                  user: 'ユーザーF',
+                  body: '何を作りたいかが決まらず、どの言語を勉強しようか迷っています。'
+                }
+              ]
+            },
+            {
+              level: '4',
+              name: 'アウトプットする',
+              links: [
+                {
+                  to: 'https://talent.supporterz.jp/geekcamp/2021/',
+                  name: '技育CAMPハッカソン'
+                },
+                {
+                  to: 'https://github.co.jp/',
+                  name: 'Github'
+                }
+              ],
+              comments: [
+                {
+                  user: 'ユーザーE',
+                  body: '【技育CAMPハッカソン】友達と参加しました。私はスキルが全然なのでおんぶに抱っこ状態でしたが、色々勉強になりました。これからも頑張ろうと思います。'
+                },
+                {
+                  user: 'ユーザーF',
+                  body: 'アウトプットは難しいけど大事なのかも。Qiitaで記事を投稿できるようになりたい！'
+                },
+                {
+                  user: 'ユーザーE',
+                  body: '【技育CAMPハッカソン】友達と参加しました。私はスキルが全然なのでおんぶに抱っこ状態でしたが、色々勉強になりました。これからも頑張ろうと思います。'
+                },
+                {
+                  user: 'ユーザーF',
+                  body: 'アウトプットは難しいけど大事なのかも。Qiitaで記事を投稿できるようになりたい！'
                 }
               ]
             },
@@ -202,19 +273,11 @@
               name: 'ITとは何か知る',
               links: [
                 {
-                  to: '#',
-                  name: 'ITとは'
+                  to: 'https://ja.wikipedia.org/wiki/%E6%83%85%E5%A0%B1%E6%8A%80%E8%A1%93',
+                  name: '【Wikipedia】IT'
                 }
               ],
               comments: [
-                {
-                  user: 'ユーザーG',
-                  body: 'コメントG'
-                },
-                {
-                  user: 'ユーザーH',
-                  body: 'コメントH'
-                }
               ]
             },
             {
@@ -222,18 +285,18 @@
               name: 'ITパスポート試験',
               links: [
                 {
-                  to: '#',
+                  to: 'https://www3.jitec.ipa.go.jp/JitesCbt/index.html',
                   name: 'ITパスポート試験'
                 }
               ],
               comments: [
                 {
                   user: 'ユーザーI',
-                  body: 'コメントI'
+                  body: '【ITパスポート】IT系に就職しなくても勉強して損はないと思うので、受けてよかったなと思います。'
                 },
                 {
                   user: 'ユーザーJ',
-                  body: 'コメントJ'
+                  body: '【ITパスポート】時間が空いたんで、ITパスポートの勉強するぞー！キタミ式参考書を買って夏の試験に向けて頑張る'
                 }
               ]
             },
@@ -242,18 +305,30 @@
               name: '基本情報技術者になる',
               links: [
                 {
-                  to: '#',
+                  to: 'https://www.jitec.ipa.go.jp/',
                   name: '基本情報技術者試験'
-                }
+                },
+                {
+                  to: 'https://www.fe-siken.com/',
+                  name: '基本情報技術者試験ドットコム'
+                },
               ],
               comments: [
                 {
                   user: 'ユーザーK',
-                  body: 'コメントK'
+                  body: '【基本情報技術者試験ドットコム】参考書買って挫折したけど、このサイトのおかげで再挑戦できそう・・・'
                 },
                 {
                   user: 'ユーザーL',
-                  body: 'コメントL'
+                  body: '【基本情報技術者試験】合格率が30%くらいって聞いたから、頑張って合格して自信つけたい！過去問では合格ラインいってるー。'
+                },
+                {
+                  user: 'ユーザーK',
+                  body: '【基本情報技術者試験ドットコム】参考書買って挫折したけど、このサイトのおかげで再挑戦できそう・・・'
+                },
+                {
+                  user: 'ユーザーL',
+                  body: '【基本情報技術者試験】合格率が30%くらいって聞いたから、頑張って合格して自信つけたい！過去問では合格ラインいってるー。'
                 }
               ]
             },
@@ -262,19 +337,19 @@
               name: '応用情報技術者になる',
               links: [
                 {
-                  to: '#',
+                  to: 'https://www.jitec.ipa.go.jp/1_11seido/ap.html',
                   name: '応用情報技術者試験'
+                },
+                {
+                  to: 'https://www.ap-siken.com/',
+                  name: '応用情報技術者試験ドットコム'
                 }
               ],
               comments: [
                 {
                   user: 'ユーザーM',
-                  body: 'コメントM'
+                  body: '応用って独学でいけるんかな？'
                 },
-                {
-                  user: 'ユーザーN',
-                  body: 'コメントN'
-                }
               ]
             },
           ]

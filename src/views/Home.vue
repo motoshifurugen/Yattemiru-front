@@ -1,19 +1,19 @@
 <template>
   <div class="home">
     <v-row dense>
-      <v-col cols="4" class="news-box">
+      <v-col cols="3" class="news-box">
         <p>お知らせ</p>
         <div class="news overflow-y-auto">
           <News></News>
         </div>
       </v-col>
-      <v-col cols="4" class="main">
+      <v-col cols="6" class="main">
         <div class="title">
           <h1>とりあえず</h1>
           <h1>やってみる</h1>
         </div> 
       </v-col>
-      <v-col cols="4" class="comment-box">
+      <v-col cols="3" class="comment-box">
         <p>コメント投稿</p>
         <Contact></Contact>
       </v-col>
@@ -64,6 +64,9 @@
   display: block;
   border-bottom: solid 2px black;
   margin-bottom: -10px;
+}
+.category {
+  margin-top: 1em;
 }
 .category-box {
   margin: 1em auto 0;
@@ -127,18 +130,19 @@ import Contact from './Contact.vue'
               id: '1',
               name: 'プログラミング',
               link: '/page/1',
-              color: '#880E4F'
+              color: '#1E88E5'
             },
             {
               id: '2',
               name: 'IT',
               link: '/page/2',
-              color: '#880E4F'
+              color: '#AD1457'
             },
             {
               id: '3',
               name: 'Youtube',
-              color: '#880E4F'
+              link: '/page/3',
+              color: '#D50000'
             }
           ]
         },
@@ -148,27 +152,27 @@ import Contact from './Contact.vue'
             {
               id: '4',
               name: '英語',
-              color: '#880E4F'
+              color: '#9C27B0'
             },
             {
               id: '5',
               name: '心理学',
-              color: '#880E4F'
+              color: '#4CAF50'
             },
             {
               id: '6',
               name: '物理',
-              color: '#880E4F'
+              color: '#795548'
             },
             {
               id: '14',
               name: '数学',
-              color: '#880E4F'
+              color: '#0091EA'
             },
             {
               id: '15',
               name: '教員採用試験',
-              color: '#880E4F'
+              color: '#4A148C'
             }
           ]
         },
@@ -178,32 +182,32 @@ import Contact from './Contact.vue'
             {
               id: '7',
               name: '読書',
-              color: '#880E4F'
+              color: '#009688'
             },
             {
               id: '8',
               name: 'ギター',
-              color: '#880E4F'
+              color: '#E65100'
             },
             {
               id: '9',
               name: 'カメラ',
-              color: '#880E4F'
+              color: '#8BC34A'
             },
             {
               id: '10',
               name: 'ピアノ',
-              color: '#880E4F'
+              color: '#0277BD'
             },
             {
               id: '12',
               name: 'イラスト',
-              color: '#880E4F'
+              color: '#FF5722'
             },
             {
               id: '28',
               name: '旅行',
-              color: '#880E4F'
+              color: '#E91E63'
             },
           ]
         },
@@ -213,27 +217,27 @@ import Contact from './Contact.vue'
             {
               id: '19',
               name: 'ボルダリング',
-              color: '#880E4F'
+              color: '#6D4C41'
             },
             {
               id: '20',
               name: 'サーフィン',
-              color: '#880E4F'
+              color: '#0091EA'
             },
             {
               id: '21',
               name: '筋トレ',
-              color: '#880E4F'
+              color: '#D50000'
             },
             {
               id: '29',
               name: 'ランニング',
-              color: '#880E4F'
+              color: '#00BFA5'
             },
             {
               id: '30',
               name: 'ボクシング',
-              color: '#880E4F'
+              color: '#000000'
             },
           ]
         },
@@ -243,7 +247,7 @@ import Contact from './Contact.vue'
             {
               id: '22',
               name: '自己分析',
-              color: '#880E4F'
+              color: '#9E9E9E'
             },
           ]
         },
@@ -253,17 +257,17 @@ import Contact from './Contact.vue'
             {
               id: '11',
               name: '絵画',
-              color: '#880E4F'
+              color: '#F9A825'
             },
             {
               id: '33',
               name: '歌',
-              color: '#880E4F'
+              color: '#4DD0E1'
             },
             {
               id: '34',
               name: 'ファッション',
-              color: '#880E4F'
+              color: '#7986CB'
             },
           ]
         },
@@ -273,7 +277,7 @@ import Contact from './Contact.vue'
             {
               id: '13',
               name: '料理',
-              color: '#880E4F'
+              color: '#827717'
             },
           ]
         },
@@ -283,22 +287,22 @@ import Contact from './Contact.vue'
             {
               id: '16',
               name: 'ブログ',
-              color: '#880E4F'
+              color: '#5D4037'
             },
             {
               id: '17',
               name: '作詞',
-              color: '#880E4F'
+              color: '#00796B'
             },
             {
               id: '18',
               name: '物語作成',
-              color: '#880E4F'
+              color: '#40C4FF'
             },
             {
               id: '25',
               name: 'Twitter',
-              color: '#880E4F'
+              color: '#03A9F4'
             },
           ]
         },
@@ -308,22 +312,22 @@ import Contact from './Contact.vue'
             {
               id: '23',
               name: 'ミニチュア',
-              color: '#880E4F'
+              color: '#C0CA33'
             },
             {
               id: '24',
               name: 'ゲーム',
-              color: '#880E4F'
+              color: '#F06292'
             },
             {
               id: '31',
               name: '漫画・アニメ',
-              color: '#880E4F'
+              color: '#673AB7'
             },
             {
               id: '32',
               name: '映画',
-              color: '#880E4F'
+              color: '#607D8B'
             },
           ]
         },
@@ -333,12 +337,12 @@ import Contact from './Contact.vue'
             {
               id: '26',
               name: '起業',
-              color: '#880E4F'
+              color: '#006064'
             },
             {
               id: '27',
               name: '投資',
-              color: '#880E4F'
+              color: '#3F51B5'
             },
           ]
         },

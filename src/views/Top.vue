@@ -20,6 +20,7 @@
   width: 100%;
   height: 100%;
   display: table;
+  margin-top: 5%;
 }
 .title {
   display: table-cell;
