@@ -7,11 +7,15 @@
           <News></News>
         </div>
       </v-col>
-      <v-col cols="6">
-        メイン
+      <v-col cols="4" class="main">
+        <div class="title">
+          <h1>とりあえず</h1>
+          <h1>やってみる</h1>
+        </div> 
       </v-col>
-      <v-col cols="2">
-        登録・ログイン
+      <v-col cols="4" class="comment-box">
+        <p>コメント投稿</p>
+        <Contact></Contact>
       </v-col>
     </v-row>
     <div class="category">
@@ -72,17 +76,47 @@
   color: orange;
 }
 .news {
-  max-height: 300px;
+  max-height: 340px;
   margin: 0.5em;
+}
+.comment-box {
+  padding: 0 2em;
+}
+.comment-box p{
+  text-align: center;
+  margin-top: 1em;
+  font-weight: bold;
+  color: #42A5F5;
+}
+.main {
+  width: 100%;
+  height: 340px;
+  margin: auto 0;
+  display: table;
+}
+.title {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.title h1 {
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+.title h1:first-letter {
+  font-size: 1.5em;
+  color: #42A5F5;
 }
 </style>
 
 <script>
 import News from './News.vue'
+import Contact from './Contact.vue'
 
   export default {
     components: {
-      News
+      News,
+      Contact
     },
     data: () => ({
       categories: [

@@ -4,6 +4,8 @@
       <v-btn color="red" depressed to="/home">
         <v-toolbar-title>やってみる</v-toolbar-title>
       </v-btn>
+      <v-spacer></v-spacer>
+      <Login></Login>
     </v-app-bar>
     <v-main>
       <router-view />
@@ -12,8 +14,10 @@
 </template>
 
 <script>
+import Login from './views/Login.vue'
 export default {
   components: {
+    Login
   }
 };
 </script>
